@@ -1,0 +1,143 @@
+2025-01-24T16:38:03.841+08:00  INFO 37124 --- [interviewcandidate] [main] c.m.i.model.InterviewCandidateTest       : Starting InterviewCandidateTest using Java 23.0.1 with PID 37124 (started by yyj in /Users/yyj/Documents/mb_assignment/interviewcandidate)
+2025-01-24T16:38:03.842+08:00  INFO 37124 --- [interviewcandidate] [main] c.m.i.model.InterviewCandidateTest       : No active profile set, falling back to 1 default profile: "default"
+2025-01-24T16:38:04.105+08:00  INFO 37124 --- [interviewcandidate] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24T16:38:04.126+08:00  INFO 37124 --- [interviewcandidate] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2025-01-24T16:38:04.357+08:00  INFO 37124 --- [interviewcandidate] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24T16:38:04.396+08:00  INFO 37124 --- [interviewcandidate] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-24T16:38:04.413+08:00  INFO 37124 --- [interviewcandidate] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-24T16:38:04.535+08:00  INFO 37124 --- [interviewcandidate] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-24T16:38:04.547+08:00  INFO 37124 --- [interviewcandidate] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-24T16:38:04.806+08:00  INFO 37124 --- [interviewcandidate] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 13d19cda-b3cc-400e-b362-390ceb11a4f1
+2025-01-24T16:38:04.807+08:00  INFO 37124 --- [interviewcandidate] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-24T16:38:04.826+08:00  WARN 37124 --- [interviewcandidate] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-24T16:38:04.843+08:00  INFO 37124 --- [interviewcandidate] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-24T16:38:05.175+08:00  INFO 37124 --- [interviewcandidate] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-24T16:38:05.261+08:00  INFO 37124 --- [interviewcandidate] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24T16:38:05.433+08:00  WARN 37124 --- [interviewcandidate] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24T16:38:05.583+08:00  INFO 37124 --- [interviewcandidate] [main] c.m.i.model.InterviewCandidateTest       : Started InterviewCandidateTest in 1.876 seconds (process running for 2.327)
+2025-01-24T16:38:05.951+08:00  INFO 37124 --- [interviewcandidate] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24T16:38:05.952+08:00  INFO 37124 --- [interviewcandidate] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-24T16:38:05.955+08:00  INFO 37124 --- [interviewcandidate] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-24T16:38:10.832+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] c.m.i.InterviewcandidateApplication      : Starting InterviewcandidateApplication using Java 23.0.1 with PID 37155 (/Users/yyj/Documents/mb_assignment/interviewcandidate/target/classes started by yyj in /Users/yyj/Documents/mb_assignment/interviewcandidate)
+2025-01-24T16:38:10.833+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] c.m.i.InterviewcandidateApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-01-24T16:38:10.855+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-24T16:38:10.855+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-24T16:38:11.072+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24T16:38:11.090+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2025-01-24T16:38:11.300+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-24T16:38:11.306+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-24T16:38:11.306+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-24T16:38:11.319+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-24T16:38:11.319+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 464 ms
+2025-01-24T16:38:11.387+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24T16:38:11.405+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-24T16:38:11.415+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-24T16:38:11.502+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-24T16:38:11.512+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-24T16:38:11.705+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 66c8d4b1-b9bd-4f66-81bc-dc49d18374ed
+2025-01-24T16:38:11.705+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-24T16:38:11.723+08:00  WARN 37155 --- [interviewcandidate] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-24T16:38:11.739+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-24T16:38:12.011+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-24T16:38:12.097+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24T16:38:12.219+08:00  WARN 37155 --- [interviewcandidate] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24T16:38:12.340+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-24T16:38:12.353+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-24T16:38:12.357+08:00  INFO 37155 --- [interviewcandidate] [restartedMain] c.m.i.InterviewcandidateApplication      : Started InterviewcandidateApplication in 1.676 seconds (process running for 1.834)
+2025-01-24T16:38:39.018+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24T16:38:39.019+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-24T16:38:39.020+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-24T16:38:39.022+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-2] c.m.i.config.LoggingFilter               : Incoming Request: Method=POST URI=/api/candidates
+2025-01-24T16:38:39.133+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-2] c.m.i.config.LoggingFilter               : Outgoing Response: Status=200
+2025-01-24T16:38:44.113+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-3] c.m.i.config.LoggingFilter               : Incoming Request: Method=PUT URI=/api/candidates/1
+2025-01-24T16:38:44.206+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-3] c.m.i.config.LoggingFilter               : Outgoing Response: Status=200
+2025-01-24T16:38:51.930+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-4] c.m.i.config.LoggingFilter               : Incoming Request: Method=GET URI=/api/candidates/2
+2025-01-24T16:38:51.959+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-4] c.m.i.config.LoggingFilter               : Outgoing Response: Status=200
+2025-01-24T16:38:55.405+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-5] c.m.i.config.LoggingFilter               : Incoming Request: Method=GET URI=/api/candidates
+2025-01-24T16:38:55.507+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-5] c.m.i.config.LoggingFilter               : Outgoing Response: Status=200
+2025-01-24T16:38:58.839+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-6] c.m.i.config.LoggingFilter               : Incoming Request: Method=GET URI=/api/candidates
+2025-01-24T16:38:58.883+08:00  INFO 37155 --- [interviewcandidate] [http-nio-8080-exec-6] c.m.i.config.LoggingFilter               : Outgoing Response: Status=200
+2025-01-24T16:44:03.902+08:00  INFO 37222 --- [interviewcandidate] [main] c.m.i.model.InterviewCandidateTest       : Starting InterviewCandidateTest using Java 23.0.1 with PID 37222 (started by jieweiyeejun in /Users/jieweiyeejun/Documents/mb_assignment/interviewcandidate)
+2025-01-24T16:44:03.904+08:00  INFO 37222 --- [interviewcandidate] [main] c.m.i.model.InterviewCandidateTest       : No active profile set, falling back to 1 default profile: "default"
+2025-01-24T16:44:04.142+08:00  INFO 37222 --- [interviewcandidate] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24T16:44:04.161+08:00  INFO 37222 --- [interviewcandidate] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2025-01-24T16:44:04.355+08:00  INFO 37222 --- [interviewcandidate] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24T16:44:04.377+08:00  INFO 37222 --- [interviewcandidate] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-24T16:44:04.390+08:00  INFO 37222 --- [interviewcandidate] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-24T16:44:04.487+08:00  INFO 37222 --- [interviewcandidate] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-24T16:44:04.498+08:00  INFO 37222 --- [interviewcandidate] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-24T16:44:04.727+08:00  INFO 37222 --- [interviewcandidate] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 6d475dc4-8d72-4807-9d7b-c0959469fc32
+2025-01-24T16:44:04.728+08:00  INFO 37222 --- [interviewcandidate] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-24T16:44:04.746+08:00  WARN 37222 --- [interviewcandidate] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-24T16:44:04.768+08:00  INFO 37222 --- [interviewcandidate] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-24T16:44:05.080+08:00  INFO 37222 --- [interviewcandidate] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-24T16:44:05.165+08:00  INFO 37222 --- [interviewcandidate] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24T16:44:05.323+08:00  WARN 37222 --- [interviewcandidate] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24T16:44:05.466+08:00  INFO 37222 --- [interviewcandidate] [main] c.m.i.model.InterviewCandidateTest       : Started InterviewCandidateTest in 1.684 seconds (process running for 2.103)
+2025-01-24T16:44:05.832+08:00  INFO 37222 --- [interviewcandidate] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24T16:44:05.833+08:00  INFO 37222 --- [interviewcandidate] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-24T16:44:05.836+08:00  INFO 37222 --- [interviewcandidate] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-24T16:44:31.590+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] c.m.i.InterviewcandidateApplication      : Starting InterviewcandidateApplication using Java 23.0.1 with PID 37249 (/Users/jieweiyeejun/Documents/mb_assignment/interviewcandidate/target/classes started by jieweiyeejun in /Users/jieweiyeejun/Documents/mb_assignment/interviewcandidate)
+2025-01-24T16:44:31.591+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] c.m.i.InterviewcandidateApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-01-24T16:44:31.615+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-24T16:44:31.615+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-24T16:44:31.854+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24T16:44:31.874+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2025-01-24T16:44:32.100+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-24T16:44:32.105+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-24T16:44:32.105+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-24T16:44:32.121+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-24T16:44:32.122+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 507 ms
+2025-01-24T16:44:32.196+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24T16:44:32.213+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-24T16:44:32.223+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-24T16:44:32.315+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-24T16:44:32.325+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-24T16:44:32.522+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 31f462a2-bc88-4db0-b7c1-c1a643ad0af7
+2025-01-24T16:44:32.522+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-24T16:44:32.554+08:00  WARN 37249 --- [interviewcandidate] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-24T16:44:32.570+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-24T16:44:32.848+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-24T16:44:32.935+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24T16:44:33.060+08:00  WARN 37249 --- [interviewcandidate] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24T16:44:33.190+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-24T16:44:33.203+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-24T16:44:33.208+08:00  INFO 37249 --- [interviewcandidate] [restartedMain] c.m.i.InterviewcandidateApplication      : Started InterviewcandidateApplication in 1.778 seconds (process running for 1.94)
+2025-01-24T16:44:51.862+08:00  INFO 37249 --- [interviewcandidate] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24T16:44:51.862+08:00  INFO 37249 --- [interviewcandidate] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-24T16:44:51.863+08:00  INFO 37249 --- [interviewcandidate] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-01-24T16:44:51.866+08:00  INFO 37249 --- [interviewcandidate] [http-nio-8080-exec-2] c.m.i.config.LoggingFilter               : Incoming Request: Method=GET URI=/api/candidates/nestedApi
+2025-01-24T16:44:52.699+08:00  INFO 37249 --- [interviewcandidate] [http-nio-8080-exec-2] c.m.i.config.LoggingFilter               : Outgoing Response: Status=200
+2025-01-24T17:10:13.699+08:00  INFO 37249 --- [interviewcandidate] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-24T17:10:13.706+08:00  INFO 37249 --- [interviewcandidate] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-24T17:10:13.712+08:00  INFO 37249 --- [interviewcandidate] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24T17:10:13.718+08:00  INFO 37249 --- [interviewcandidate] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-24T17:10:13.721+08:00  INFO 37249 --- [interviewcandidate] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
